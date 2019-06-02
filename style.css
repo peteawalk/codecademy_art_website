@@ -1,0 +1,38 @@
+body {
+    font-family: "Helvetica", "sans-serif", "Arial";
+}
+
+header {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    width: 100%;
+    margin: auto; /* Horizontal center */ 
+    background-image: url("images/image_1_pattern.jpeg");
+    /* position: absolute; Brought background image to top of page */
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+
+h2.brush {
+    background-color: mediumspringgreen;
+}
+
+h2.frame{
+    background-color: lightcoral;
+}
+
+h2.paint {
+    background-color: skyblue;
+}
+
+span.price { 
+    font-weight: bold;
+    color: blue;
+}
